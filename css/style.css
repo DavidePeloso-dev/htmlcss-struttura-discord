@@ -74,6 +74,17 @@
     border: 2px black dashed;
     background-color: orangered;
 }
+
+/* where_section */
+.debug .where_section{
+    background-color: rgb(182, 202, 220);
+}
+
+.debug .where_section .container{
+    border: 3px black double;
+    background-color: antiquewhite;
+    height: 60vh;
+}
 /* --------------------
    /debug_section
 -------------------- */
