@@ -96,6 +96,55 @@
     background-color: antiquewhite;
     height: 80vh;
 }
+
+/* footer */
+.debug #footer{
+    background-color: gray;
+    height: 45vh;
+}
+
+.debug #footer .container{
+    border: 3px black double;
+    background-color: antiquewhite;
+}
+
+.debug .footer_top .container{
+    height: 40vh;
+
+}
+
+.debug .footer_bottom .container{
+    height: 5vh;
+
+}
+
+.debug .footer_top{
+    height: 40vh;
+}
+
+.debug .footer_top .row{
+    height: inherit;
+    align-items: center;
+}
+.debug .footer_top .links{
+    border: 2px black dashed;
+    height: 80%;
+    background-color: brown;
+}
+
+.debug .footer_top .info{
+    border: 2px black dashed;
+    height: 80%;
+    background-color: lightcoral;
+}
+
+
+.debug .footer_bottom .row{
+    justify-content: space-between;
+    align-items: center;
+    height: calc(5vh - 6px);
+    
+}
 /* --------------------
    /debug_section
 -------------------- */
@@ -166,7 +215,7 @@
      general_css
 -------------------- */
 /* header */
-#header, .container, .row{
+#header, .container, header .row{
     height: 3rem;
 
 }
