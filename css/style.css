@@ -47,12 +47,12 @@
 
 }
 
-/* invite_section */
-.debug .invite_section{
+/* invite_section , fandom_section */
+.debug .invite_section, .debug .fandom_section{
     background-color: #ededed;
 }
 
-.debug .invite_section .container{
+.debug .invite_section .container, .debug .fandom_section .container{
     border: 3px black double;
     background-color: antiquewhite;
     height: 60vh;
