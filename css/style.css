@@ -85,6 +85,17 @@
     background-color: antiquewhite;
     height: 60vh;
 }
+
+/* tech_section */
+.debug .tech_section{
+    background-color: rgb(182, 202, 220);
+}
+
+.debug .tech_section .container{
+    border: 3px black double;
+    background-color: antiquewhite;
+    height: 80vh;
+}
 /* --------------------
    /debug_section
 -------------------- */
